@@ -1,0 +1,25 @@
+Script started on 2020-10-02 15:13:51-03:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="100" LINES="37"]
+root@server:~# date
+Fri 02 Oct 2020 03:13:52 PM -03
+root@server:~# echo "First, create the file add_content like the exa[K[K[K[K[K[K[K[K[K[K[K[Kas the example file shipped with this tutori al"[K. Then, execute the follownig [K[K[K[King command to add a node called People, a node called Groups, a group c alled miners and a user called john"
+First, create the file add_content as the example file shipped with this tutorial. Then, execute the following command to add a node called People, a node called Groups, a group called miners and a user called john
+root@server:~# echo "First, create the file add_content as the example file shipped with this tutorial. Then, execute the following command to add a node called People, a node called Groups, a group called miners and a user called john"[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdate[K
+[K
+Script started on 2020-10-02 15:16:44-03:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="100" LINES="37"]
+root@server:~# exitvi add_content.ldif [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[44@ldapadd -x -D cn=admin,dc=example,dc=com -W -f[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Enter LDAP Password: 
+adding new entry "uid=john,ou=People,dc=example,dc=com"
+
+root@server:~# exit[K[K[K[Kldapsearch -x -LLL -b dc=example,dc=com '(ud[Kid=john)' cn gidNumber
+dn: uid=john,ou=People,dc=example,dc=com
+cn: John Doe
+gidNumber: 5000
+
+root@server:~# ldappasswd -x -D cn=admin,c[Kdc-[K=example,dc=com -W -S uid=john,ou=Po[Keople,dc=Ex[K[Kexample,dc=C[Kco m
+New password: 
+Re-enter new password: 
+Enter LDAP Password: 
+root@server:~# s[Kexit
+exit
+
+Script done on 2020-10-02 15:18:20-03:00 [COMMAND_EXIT_CODE="0"]

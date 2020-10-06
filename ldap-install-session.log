@@ -1,0 +1,137 @@
+Script started on 2020-10-02 13:04:48-03:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="100" LINES="37"]
+root@server:~# apt install lapd[K[K[K[Kslapd ldap-utils
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libltdl7 libodbc1 psmisc
+Suggested packages:
+  libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal libmyodbc odbc-postgresql tdsodbc
+  unixodbc-bin
+The following NEW packages will be installed:
+  ldap-utils libltdl7 libodbc1 psmisc slapd
+0 upgraded, 5 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2,448 kB of archives.
+After this operation, 19.9 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+[33m0% [Working][0m            Get:1 http://deb.debian.org/debian buster/main i386 libltdl7 i386 2.4.6-9 [392 kB]
+[33m0% [1 libltdl7 0 B/392 kB 0%][0m[33m                             17% [Working][0m             Get:2 http://deb.debian.org/debian buster/main i386 libodbc1 i386 2.3.6-0.1 [236 kB]
+[33m17% [2 libodbc1 0 B/236 kB 0%][0m[33m                              29% [Working][0m             Get:3 http://deb.debian.org/debian buster/main i386 psmisc i386 23.2-1 [127 kB]
+[33m29% [3 psmisc 0 B/127 kB 0%][0m[33m                            37% [Working][0m             Get:4 http://deb.debian.org/debian buster/main i386 slapd i386 2.4.47+dfsg-3+deb10u2 [1,497 kB]
+[33m37% [4 slapd 0 B/1,497 kB 0%][0m[33m41% [4 slapd 140 kB/1,497 kB 9%][0m[33m61% [4 slapd 756 kB/1,497 kB 51%][0m[33m                                 90% [Working][0m             Get:5 http://deb.debian.org/debian buster/main i386 ldap-utils i386 2.4.47+dfsg-3+deb10u2 [197 kB]
+[33m90% [5 ldap-utils 0 B/197 kB 0%][0m[33m95% [5 ldap-utils 155 kB/197 kB 79%][0m[33m                                    100% [Working][0m              Fetched 2,448 kB in 3s (908 kB/s)
+Preconfiguring packages ...
+[1;37r[4l)0[?25l[?1c[m[37m[40m[1;37r[H[J[1;1H[1m[37m[44m                                                                                                    [2;1H                                                                                                    [3;1H                                                                                                    [4;1H                                                                                                    [5;1H                                                                                                    [6;1H                                                                                                    [7;1H                                                                                                    [8;1H                                                                                                    [9;1H                                                                                                    [10;1H                                                                                                    [11;1H                                                                                                    [12;1H                                                                                                    [13;1H                                                                                                    [14;1H                                                                                                    [15;1H                                                                                                    [16;1H                                                                                                    [17;1H                                                                                                    [18;1H                                                                                                    [19;1H                                                                                                    [20;1H                                                                                                    [21;1H                                                                                                    [22;1H                                                                                                    [23;1H                                                                                                    [24;1H                                                                                                    [25;1H                                                                                                    [26;1H                                                                                                    [27;1H                                                                                                    [28;1H                                                                                                    [29;1H                                                                                                    [30;1H                                                                                                    [31;1H                                                                                                    [32;1H                                                                                                    [33;1H                                                                                                    [34;1H                                                                                                    [35;1H                                                                                                    [36;1H                                                                                                    [37;1H                                                                                                   [37;99H [4h [4l[1;1H[?25l[?1c[?25h[?0c[m[37m[44mPackage configuration[14;14H[30m[47m┌─────────────────────────┤ [31mConfiguring slapd[30m ├──────────────────────────┐[15;14H│ Please enter the password for the admin entry in your LDAP directory.  │[1m[37m[40m [16;14H[m[30m[47m│                                                                        │[1m[37m[40m [17;14H[m[30m[47m│ Administrator password:                                                │[1m[37m[40m [18;14H[m[30m[47m│                                                                        │[1m[37m[40m [19;14H[m[30m[47m│ [37m[44m______________________________________________________________________[30m[47m │[1m[37m[40m [20;14H[m[30m[47m│                                                                        │[1m[37m[40m [21;14H[m[30m[47m│                                 <Ok>                                   │[1m[37m[40m [22;14H[m[30m[47m│                                                                        │[1m[37m[40m [23;14H[m[30m[47m└────────────────────────────────────────────────────────────────────────┘[1m[37m[40m [24;15H                                                                          [19;16H[m[37m[44m*********[?25l[?1c[21;48H[41m<Ok>[21;49H[?25h[?0c[37;1H[40m[m[39;49m[K[1;37r[4l)0[?25l[?1c[m[37m[40m[1;37r[H[J[1;1H[1m[37m[44m                                                                                                    [2;1H                                                                                                    [3;1H                                                                                                    [4;1H                                                                                                    [5;1H                                                                                                    [6;1H                                                                                                    [7;1H                                                                                                    [8;1H                                                                                                    [9;1H                                                                                                    [10;1H                                                                                                    [11;1H                                                                                                    [12;1H                                                                                                    [13;1H                                                                                                    [14;1H                                                                                                    [15;1H                                                                                                    [16;1H                                                                                                    [17;1H                                                                                                    [18;1H                                                                                                    [19;1H                                                                                                    [20;1H                                                                                                    [21;1H                                                                                                    [22;1H                                                                                                    [23;1H                                                                                                    [24;1H                                                                                                    [25;1H                                                                                                    [26;1H                                                                                                    [27;1H                                                                                                    [28;1H                                                                                                    [29;1H                                                                                                    [30;1H                                                                                                    [31;1H                                                                                                    [32;1H                                                                                                    [33;1H                                                                                                    [34;1H                                                                                                    [35;1H                                                                                                    [36;1H                                                                                                    [37;1H                                                                                                   [37;99H [4h [4l[1;1H[?25l[?1c[?25h[?0c[m[37m[44mPackage configuration[14;2H[30m[47m┌─────────────────────────────────────┤ [31mConfiguring slapd[30m ├─────────────────────────────────────┐[15;2H│ Please enter the admin password for your LDAP directory again to verify that you have typed   │[1m[37m[40m [16;2H[m[30m[47m│ it correctly.                                                                                 │[1m[37m[40m [17;2H[m[30m[47m│                                                                                               │[1m[37m[40m [18;2H[m[30m[47m│ Confirm password:                                                                             │[1m[37m[40m [19;2H[m[30m[47m│                                                                                               │[1m[37m[40m [20;2H[m[30m[47m│ [37m[44m_____________________________________________________________________________________________[30m[47m │[1m[37m[40m [21;2H[m[30m[47m│                                                                                               │[1m[37m[40m [22;2H[m[30m[47m│                                            <Ok>                                               │[1m[37m[40m [23;2H[m[30m[47m│                                                                                               │[1m[37m[40m [24;2H[m[30m[47m└───────────────────────────────────────────────────────────────────────────────────────────────┘[1m[37m[40m [25;3H                                                                                                 [20;4H[m[37m[44m*********[?25l[?1c[22;47H[41m<Ok>[22;48H[?25h[?0c[37;1H[40m[m[39;49m[K
+7[0;36r8[1ASelecting previously unselected package libltdl7:i386.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27530 files and directories currently installed.)
+Preparing to unpack .../libltdl7_2.4.6-9_i386.deb ...
+7[37;0f[42m[30mProgress: [  0%][49m[39m [..............................................................................] 87[37;0f[42m[30mProgress: [  5%][49m[39m [###...........................................................................] 8Unpacking libltdl7:i386 (2.4.6-9) ...
+7[37;0f[42m[30mProgress: [ 10%][49m[39m [#######.......................................................................] 8Selecting previously unselected package libodbc1:i386.
+Preparing to unpack .../libodbc1_2.3.6-0.1_i386.deb ...
+7[37;0f[42m[30mProgress: [ 14%][49m[39m [###########...................................................................] 8Unpacking libodbc1:i386 (2.3.6-0.1) ...
+7[37;0f[42m[30mProgress: [ 19%][49m[39m [##############................................................................] 8Selecting previously unselected package psmisc.
+Preparing to unpack .../psmisc_23.2-1_i386.deb ...
+7[37;0f[42m[30mProgress: [ 24%][49m[39m [##################............................................................] 8Unpacking psmisc (23.2-1) ...
+7[37;0f[42m[30mProgress: [ 29%][49m[39m [######################........................................................] 8Selecting previously unselected package slapd.
+Preparing to unpack .../slapd_2.4.47+dfsg-3+deb10u2_i386.deb ...
+7[37;0f[42m[30mProgress: [ 33%][49m[39m [#########################.....................................................] 8Unpacking slapd (2.4.47+dfsg-3+deb10u2) ...
+7[37;0f[42m[30mProgress: [ 38%][49m[39m [#############################.................................................] 8Selecting previously unselected package ldap-utils.
+Preparing to unpack .../ldap-utils_2.4.47+dfsg-3+deb10u2_i386.deb ...
+7[37;0f[42m[30mProgress: [ 43%][49m[39m [#################################.............................................] 8Unpacking ldap-utils (2.4.47+dfsg-3+deb10u2) ...
+7[37;0f[42m[30mProgress: [ 48%][49m[39m [#####################################.........................................] 8Setting up psmisc (23.2-1) ...
+7[37;0f[42m[30mProgress: [ 52%][49m[39m [########################################......................................] 87[37;0f[42m[30mProgress: [ 57%][49m[39m [############################################..................................] 8Setting up ldap-utils (2.4.47+dfsg-3+deb10u2) ...
+7[37;0f[42m[30mProgress: [ 62%][49m[39m [################################################..............................] 87[37;0f[42m[30mProgress: [ 67%][49m[39m [###################################################...........................] 8Setting up libltdl7:i386 (2.4.6-9) ...
+7[37;0f[42m[30mProgress: [ 71%][49m[39m [#######################################################.......................] 87[37;0f[42m[30mProgress: [ 76%][49m[39m [###########################################################...................] 8Setting up libodbc1:i386 (2.3.6-0.1) ...
+7[37;0f[42m[30mProgress: [ 81%][49m[39m [###############################################################...............] 87[37;0f[42m[30mProgress: [ 86%][49m[39m [##################################################################............] 8Setting up slapd (2.4.47+dfsg-3+deb10u2) ...
+7[37;0f[42m[30mProgress: [ 90%][49m[39m [######################################################################........] 8  Creating new user openldap... done.
+  Creating initial configuration... done.
+  Creating LDAP directory... done.
+7[37;0f[42m[30mProgress: [ 95%][49m[39m [##########################################################################....] 8Processing triggers for systemd (241-7~deb10u4) ...
+Processing triggers for man-db (2.8.5-2) ...
+Processing triggers for libc-bin (2.28-10) ...
+
+7[0;37r8[1A[Jroot@server:~# 
+Display all 994 possibilities? (y or n)
+root@server:~# ldapsearch -x -s base -b "" namingContexts
+# extended LDIF
+#
+# LDAPv3
+# base <> with scope baseObject
+# filter: (objectclass=*)
+# requesting: namingContexts 
+#
+
+#
+dn:
+namingContexts: dc=example,dc=com
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 2
+# numEntries: 1
+root@server:~# vi /etc/ldap/ldap.conf 
+[1;37r[27m[24m[m[H[J[?25l[?1c[37;1H"/etc/ldap/ldap.conf" 17 lines, 332 characters[1;1H#
+# LDAP Defaults
+#
+
+# See ldap.conf(5) for details
+# This file should be world readable but not world writable.
+
+#BASE   dc=example,dc=com
+#URI    ldap://ldap.example.com ldap://ldap-master.example.com:666
+
+#SIZELIMIT      12
+#TIMELIMIT      15
+#DEREF[10Cnever
+
+# TLS certificates (needed for GnuTLS)
+TLS_CACERT      /etc/ssl/certs/ca-certificates.crt
+
+[1m[34m~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [35;1H~                                                                                                   [36;1H~                                                                                                   [1;1H[?25h[?0c
+
+
+
+
+
+
+[?25l[?1c[mBASE [?25h[?0c
+[?25l[?1cURI [?25h[?0c[8Cldap://ldap.[7C.[9;21H
+[11;18H[12;18H[13;20H
+[15;20H[16;20H[15;20H[14;1H[13;20H[12;18H[11;18H[10;1H[9;20H[?25l[?1c0.example.com ldap://ldap-master.example.com:666[9;21H[?25h[?0c[?25l[?1c1.example.com ldap://ldap-master.example.com:666[9;22H[?25h[?0c1.[7C.com [?25l[?1c[9;35H[K[9;34H[?25h[?0c[?25l[?1c[37;1H[K[37;1H:[?25h[?0cwq[?25l[?1c"/etc/ldap/ldap.conf" 17 lines, 298 characters written[?25h[?0c
+root@server:~# 
+root@server:~# ldapsearch -Q -LLL -Y EXTERNAL -H ldapi:/// -b cn=config dn
+dn: cn=config
+
+dn: cn=module{0},cn=config
+
+dn: cn=schema,cn=config
+
+dn: cn={0}core,cn=schema,cn=config
+
+dn: cn={1}cosine,cn=schema,cn=config
+
+dn: cn={2}nis,cn=schema,cn=config
+
+dn: cn={3}inetorgperson,cn=schema,cn=config
+
+dn: olcBackend={0}mdb,cn=config
+
+dn: olcDatabase={-1}frontend,cn=config
+
+dn: olcDatabase={0}config,cn=config
+
+dn: olcDatabase={1}mdb,cn=config
+
+root@server:~# ldapsearch -Q -LLL -Y EXTERNAL -H ldapi:/// -b cn=config dn[1P[1@x[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@d[C[1@c[1@-[1P[1@=[1@e[1@x[1@a[1@m[1@p[1@l[1@e[1@,[1@d[C[1@c[1@=[C[1@c[1@o[1@m[C[1P[1P[1P[1P[1P[1P[1P[1P[1P dn
+dn: dc=example,dc=com
+
+dn: cn=admin,dc=example,dc=com
+
+root@server:~# ldapwhoami -x
+ldap_sasl_bind(SIMPLE): Can't contact LDAP server (-1)
+root@server:~# ldapwhoami -x -D cn=admin,dce[K=example,dc=com -W
+Enter LDAP Password: 
+ldap_sasl_bind(SIMPLE): Can't contact LDAP server (-1)
+Script done on 2020-10-02 14:50:32-03:00 [COMMAND_EXIT_CODE="130"]
