@@ -96,7 +96,7 @@ After installation, you will have to manually edit a couple of files:
 ## Further work
 
 - Check out how to import already existing users using `migrationstool`.
-- Check out how to setup a more secure LDAP connecetion (not using default `389` port).
+- Check out how to setup a more secure LDAP connection (not using default `389` port).
 - Improve this documentation (LOL).
 
 
