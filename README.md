@@ -97,7 +97,7 @@ After installation, you will have to manually edit a couple of files:
 
 - Check out how to import already existing users using `migrationstool`.
 - Check out how to setup a more secure LDAP connection (not using default `389` port).
-- Improve this documentation (LOL).
+- Improve this documentation.
 
 
 
@@ -107,4 +107,4 @@ After installation, you will have to manually edit a couple of files:
 
 [OpenLDAP server tutorial for Debian 10 (Buster)](https://computingforgeeks.com/how-to-install-and-configure-openldap-server-on-debian/)
 
-If you speak Portuguese you should **definitely** check out these two videos on LDAP: [O que é LDAP?](https://www.youtube.com/watch?v=l8BwMlPRMF8), [Configurando um servidor OpenLDAP com autenticação](https://www.youtube.com/watch?v=uaxGJs48nSY).
+Check out these two videos on LDAP: [O que é LDAP?](https://www.youtube.com/watch?v=l8BwMlPRMF8), [Configurando um servidor OpenLDAP com autenticação](https://www.youtube.com/watch?v=uaxGJs48nSY).
